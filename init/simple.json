@@ -7,6 +7,12 @@
   },
   "catalog": [
     {
+      "id": "somewfs",
+      "type": "wfs-group",
+      "name": "Some WFS",
+      "url": "https://dservices2.arcgis.com/FPJlJZYRsD8OhCWA/arcgis/services/Guam_Forest_System_Web_Map_v_1_1_WFL1/WFSServer?service=wfs&request=getcapabilities"
+    },
+    {
       "id": "ZIdekvc10z",
       "type": "wms-group",
       "name": "Test",
