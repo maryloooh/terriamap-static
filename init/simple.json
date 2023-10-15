@@ -767,7 +767,28 @@
   ],
   "viewerMode": "3dSmooth",
   "baseMaps": {
-    "defaultBaseMapId": "basemap-positron",
-    "previewBaseMapId": "basemap-positron"
+    "defaultBaseMapId": "linz-basemap",
+    "previewBaseMapId": "basemap-positron",
+     "enabledBaseMaps": [
+          "basemap-natural-earth-II",
+          "basemap-black-marble",
+          "basemap-positron",
+          "basemap-darkmatter",
+          "linz-basemap"
+        ],
+    "items": [
+          {
+            "image": "https://linz.maps.arcgis.com/sharing/rest/content/items/850d6096d89b48228a0638842fa3801c/info/thumbnail/thumbnail1623366738812.jpeg",
+            "item": {
+              "allowFeaturePicking": false,
+              "id": "linz-basemap",
+              "name": "LINZ Aerial",
+              "layer": "aerial",
+              "opacity": 1,
+              "type": "wmts",
+              "url": "https://basemaps.linz.govt.nz/v1/tiles/aerial/EPSG:3857/WMTSCapabilities.xml?api=d01eerf7nz5n1cxad3tqy91d0sa&service=WMTS&version=1.0.0&request=GetCapabilities"
+            }
+          }
+      ]
   }
 }
