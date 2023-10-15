@@ -13,6 +13,12 @@
       "url": "https://dservices2.arcgis.com/FPJlJZYRsD8OhCWA/arcgis/services/Guam_Forest_System_Web_Map_v_1_1_WFL1/WFSServer?service=wfs&request=getcapabilities"
     },
     {
+      "id": "somenewwfs",
+      "type": "wfs-group",
+      "name": "Some Basemap",
+      "url": "https://gist.githubusercontent.com/sixlighthouses/f5e7be45840d2a57746a0b746d96ef6a/raw/59de5d0f91aafeb7cd2fbef968bc985022b8a0ce/foss4g_1.json"
+    },
+    {
       "id": "ZIdekvc10z",
       "type": "wms-group",
       "name": "Test",
